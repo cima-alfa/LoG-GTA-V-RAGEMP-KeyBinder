@@ -2,12 +2,13 @@ global version := "1.4.7"
 global update_url := "https://keybinder.cima-alfa.com/download/"
 global download_url := "https://keybinder.cima-alfa.com/download/keybinder.exe"
 
-oWhr := ComObjCreate("WinHttp.WinHttpRequest.5.1")
-oWhr.Open("GET", update_url, False)
-oWhr.SetRequestHeader("Content-Type", "application/json")
-oWhr.Send()
+; oWhr := ComObjCreate("WinHttp.WinHttpRequest.5.1")
+; oWhr.Open("GET", update_url, False)
+; oWhr.SetRequestHeader("Content-Type", "application/json")
+; oWhr.Send()
 
-global version_new := JSON.Load(oWhr.ResponseText).version
+; global version_new := JSON.Load(oWhr.ResponseText).version
+global version_new := "1.4.7"
 
 global general_title := "LSPD | FIB Keybinder v"
 global app_title := general_title version

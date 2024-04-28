@@ -2,11 +2,11 @@ IfExist, keybinder_update.bat
 	FileDelete, keybinder_update.bat
 
 If (settings.other.auto_update) {
-	UpdateKeybinder()
+	; UpdateKeybinder()
 }
 
 If (settings.other.patch_notes) {
-	PatchNotes()
+	; PatchNotes()
 }
 
 UpdateKeybinder() {
@@ -57,7 +57,12 @@ UpdateGuiClose() {
 	Return
 }
 
+; Patch notes fn placeholder (server for downloads no longer works)
 PatchNotes() {
+	Return
+}
+
+PatchNotesFn() {
 	oWhr := ComObjCreate("WinHttp.WinHttpRequest.5.1")
 	oWhr.Open("GET", update_url, False)
 	oWhr.SetRequestHeader("Content-Type", "application/json")
