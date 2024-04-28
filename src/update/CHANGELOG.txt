@@ -1,0 +1,2 @@
+Updated Strafkatalog to v0.1.5
+Updated the /att command to give 10 wanteds according to the new Strafkatalog
