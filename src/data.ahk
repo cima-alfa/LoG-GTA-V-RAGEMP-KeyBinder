@@ -1,4 +1,4 @@
-global version := "1.4.8"
+global version := "1.4.7"
 global update_url := "https://keybinder.cima-alfa.com/download/"
 global download_url := "https://keybinder.cima-alfa.com/download/keybinder.exe"
 
