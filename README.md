@@ -17,3 +17,7 @@ Built using AHK v1.1
 ## Bugs
 - For some reason German encoding no longer works
 - - Since the server is no longer active, I won't be fixing that
+
+### Antivirus
+- All the code is public and you are welcome to compile it yourself
+- For the compiled exe file, it might be necessary to make an antivirus exception
