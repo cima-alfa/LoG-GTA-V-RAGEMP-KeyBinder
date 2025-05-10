@@ -1,3 +1,5 @@
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/cima-alfa/LoG-GTA-V-RAGEMP-KeyBinder)
+
 # Keybinder for Life of German GTA V RP Server
 
 Built using AHK v1.1
